@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我</title>
+    <link rel="stylesheet" href="css/index1.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/animate.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/swiper.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="title animated bounceInLeft">用代码说话</div>
+        <div class="title animated bounceInRight">用代码思考</div>
+    </header>
+    <section class="my">
+        <div class="my_title">
+            <div class="left">关于自己</div>
+            <div class="right">
+                <p>
+                    <i class="iconfont">&#xe617;</i>
+                    分享
+                </p>
+
+            </div>
+        </div>
+        <div class="my_container">
+            <h1>个人简介</h1>
+            <div class="touxiang">
+                <img src="img/touxiang.jpg" alt="">
+
+            </div>
+            <span></span>
+            <p>爱生活、爱艺术、爱书画、爱音乐、爱设计、爱编程。</p>
+            <p>人生百态，笑口常开，秉承自我，谨慎独行。静觅，静静寻觅生活的美好。</p>
+            <a href="">了解更多</a>
+        </div>
+        <div class="my_container1">
+            <h1>我的技能树</h1>
+            <p>HTML</p>
+            <div>
+                <span>65%</span>
+            </div>
+            <p>CSS</p>
+            <div>
+                <span>60%</span>
+            </div>
+            <p>JavaScript</p>
+            <div>
+                <span>77%</span>
+            </div>
+            <p>jQuery</p>
+            <div>
+                <span>55%</span>
+            </div>
+            <p>PHP</p>
+            <div>
+                <span>75%</span>
+            </div>
+
+        </div>
+        <div class="my_container2">
+            <h1>与我联系</h1>
+            <ul>
+                <li>
+                    <a href="">
+                        <i class="iconfont">&#xe66a;</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="iconfont">&#xe62e;</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="iconfont">&#xe66a;</i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="my_container3">
+            <h1>
+                <i class="iconfont">&#xe629;</i>
+                发表评论
+            </h1>
+            <input type="text" placeholder="写点什么">
+        <div>
+    </section>
+    <!--返回顶部开始-->
+    <div class="top">
+        <i class="iconfont">&#xe63a;</i>
+    </div>
+    <!--返回顶部结束-->
+    <!--底部开始-->
+    <footer>
+        <a href="">首页</a>
+        <a href="">笔记</a>
+        <a href="">联系我</a>
+    </footer>
+</body>
+</html>
+<script>
+    let tops=document.querySelector(".top");
+    tops.onclick = function(){
+        animate(document.body,{scrollTop:0});
+        animate(document.documentElement,{scrollTop:0})
+    };
+</script>
