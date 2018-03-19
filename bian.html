@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/rem.js"></script>
+    <link rel="stylesheet" href="css/du.css">
+    <script src="js/jquery-3.3.1.js"></script>
+</head>
+<body>
+<header>
+    <div class="left"><a href="index.html">首页</a></div>
+    <div class="center">分类
+        <ul class="list">
+            <li><a href="bian.html">编程</a></li>
+            <li><a href="du.html">读书</a></li>
+            <li><a href="liu.html">留言</a></li>
+            <li><a href="ge.html">消息</a></li>
+        </ul>
+    </div>
+    <div class="e"><a href="white.html">发表</a></div>
+    <div class="right">退出</div>
+</header>
+<div class="dong">编程</div>
+<div class="one">
+    <h1>深度解读区块链撸猫</h1>
+    <img src="img/s.jpg" alt="">
+    <p><a href="">小小小小</a>/<a href="">编程</a>/2017-12-10 17:00/阅读：0</p>
+    <div class="ji"><a href="">继续阅读>></a></div>
+</div>
+<div class="one">
+    <h1>Spring主从数据库的配置和动态数据源切换原理</h1>
+    <img src="img/s%20(1).jpg" alt="">
+    <p><a href="">小小小小</a>/<a href="">编程</a>/2017-12-10 17:00/阅读：0</p>
+    <div class="ji"><a href="">继续阅读>></a></div>
+</div>
+<div class="one">
+    <h1>使用jQuery实现图片懒加载原理</h1>
+    <img src="img/s%20(2).jpg" alt="">
+    <p><a href="">小小小小</a>/<a href="">编程</a>/2017-12-10 17:00/阅读：0</p>
+    <div class="ji"><a href="">继续阅读>></a></div>
+</div>
+<div class="null"></div>
+<footer>
+    <p>
+        <span>小小小小的个人博客</span>
+        ©2017 v485f153
+    </p>
+    <p>
+        Powered by iTranswarp.js
+    </p>
+    <p>由<span>阿里云</span>托管</p>
+    <p>广告合作</p>
+    <div class="top">顶</div>
+</footer>
+</body>
+</html>
+<script>
+    $('.top').click(function(){
+        $("html,body").animate({scrollTop:0}, 500);
+    })
+    $('.center').click(function(){
+        $('.list').animate({height:'4rem',opacity:1},500);
+    })
+    $('.center').mouseleave(function(){
+        $('.list').animate({height:0,opacity:0},500);
+    })
+</script>

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/rem.js"></script>
+    <link rel="stylesheet" href="css/white.css">
+    <script src="js/jquery-3.3.1.js"></script>
+</head>
+<body>
+<header>
+    <div class="left"><a href="index.html">首页</a></div>
+    <div class="right">退出</div>
+</header>
+<section>
+    <form action="">
+        <div class="div">
+            <label for="title">标题：</label>
+            <input type="text" name="title">
+        </div>
+        <div class="div">
+            <label for="title_">副标题：</label>
+            <input type="text" name="title_">
+        </div>
+        <div class="div1">
+            <label for="textarea">正文：</label>
+            <textarea name="textarea" id="textarea"></textarea>
+        </div>
+        <div class="btn">发表</div>
+    </form>
+</section>
+<div class="null"></div>
+<footer>
+    <p>
+        <span>小小小小的个人博客</span>
+        ©2017 v485f153
+    </p>
+    <p>
+        Powered by iTranswarp.js
+    </p>
+    <p>由<span>阿里云</span>托管</p>
+    <p>广告合作</p>
+    <div class="top">顶</div>
+</footer>
+</body>
+</html>
+<script>
+    $('.top').click(function(){
+        $("html,body").animate({scrollTop:0}, 500);
+    })
+
+</script>

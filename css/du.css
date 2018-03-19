@@ -52,17 +52,13 @@ header a{
 .one{
     width: 90%;
     margin:0.2rem auto 0;
-    height: 2rem;
+    height: auto;
 }
 .one img{
     display: block;
-    float: left;
+    margin-top: 0.3rem;
 }
-.r{
-    float: left;
-    margin-left: 0.3rem;
-}
-.r h1{
+.one h1{
     font-size: 0.3rem;
     margin-top: 0.3rem;
     color:cornflowerblue;
@@ -70,19 +66,42 @@ header a{
     /*overflow:hidden;*/
     /*text-overflow:ellipsis;*/
 }
-.r p{
-    font-size: 0.2rem;
+p{
+    font-size: 0.24rem;
     color:#999;
+    display: block;
     margin-top: 0.3rem;
     /*white-space:nowrap;*/
     /*overflow:hidden;*/
     /*text-overflow:ellipsis;*/
 }
+p a{
+    font-size: 0.24rem;
+    color:cornflowerblue;
+    text-decoration: none;
+}
+.ji{
+    width: 2rem;
+    height: 0.5rem;
+    border-radius: 0.1rem;
+    background: #00b3ff;
+    font-size: 0.24rem;
+    color:#fff;
+    line-height: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top:0.3rem;
+}
+.ji a{
+    font-size: 0.24rem;
+    color:#fff;
+    text-decoration: none;
+}
 .null{
     width: 96%;
     height: 0.04rem;
     background: rgba(114, 20, 28, 0.17);
-    margin:0 auto;
+    margin:0.3rem auto 0;
 }
 footer{
     width: 100%;

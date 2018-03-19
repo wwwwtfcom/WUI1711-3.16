@@ -18,6 +18,6 @@ function resize(originSize,type){
 resize(750,"x");
 
 window.onresize = function(){
-   resize(750,"x"); 
+   resize(750,"x");
 }
 
